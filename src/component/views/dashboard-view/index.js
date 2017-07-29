@@ -1,6 +1,13 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
 
-import SurveyContainer from './dashboard-components/survey-container'
+import SurveyContainer from './survey-container'
+
+import {
+  clickUpdate as clickUpdateAction,
+  shownUpdate as shownUpdateAction,
+  surveyReset as surveyResetAction,
+} from '../../../action/image-actions.js'
 
 class DashboardContainer extends Component {
   constructor(props) {
@@ -11,10 +18,24 @@ class DashboardContainer extends Component {
     return (
       <div>
         <h1> Dashboard Container </h1>
-        <SurveyContainer />
+        <SurveyContainer state={this.props.state}/>
       </div>
     )
   }
 }
 
-export default DashboardContainer
+const mapStateToProps = (state) => {
+  return {
+    images: state,
+  }
+}
+
+const mapDispatchToProps = (dispatch, getState) => {
+  return {
+    clickUpdate: (image) => dispatch(clickUpdateAction(image)),
+    shownUpdate: (image) => dispatch(shownUpdateAction(image)),
+    surveyReset: (image) => dispatch(surveyResetAction(image)),
+  }
+}
+
+export default connect(mapStateToProps)(DashboardContainer)
