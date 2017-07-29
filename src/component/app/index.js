@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
 
+import DashboardContainer from '../views/dashboard-view'
+
 class App extends Component {
   render() {
     return (
       <div>
-        <h1> Cool World </h1>
+        <DashboardContainer />
       </div>
     )
   }
