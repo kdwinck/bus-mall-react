@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7e7eff;
+  color: white;
+
+  h1 {
+    margin-left: 1em;
+  }
+
+  .links {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+}

@@ -2,7 +2,8 @@ import React, {Component} from 'react'
 import {Provider} from 'react-redux'
 
 import createAppStore from '../../lib/store.js'
-import DashboardContainer from '../views/dashboard-view'
+import DashboardView from '../views/dashboard-view'
+import '../../main.scss'
 
 const store = createAppStore()
 
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <div>
         <Provider store={store}>
-          <DashboardContainer />
+          <DashboardView />
         </Provider>
       </div>
     )

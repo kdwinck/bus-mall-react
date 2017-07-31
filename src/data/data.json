@@ -1,101 +1,101 @@
 {
   "bag": {
-    "type": "jpg",
+    "url": "bag.jpg",
     "clicks": 0,
     "shown": 0
   },
   "banana": {
-    "type": "jpg",
+    "url": "banana.jpg",
     "clicks": 0,
     "shown": 0
   },
   "bathroom": {
-    "type": "jpg",
+    "url": "bathroom.jpg",
     "clicks": 0,
     "shown": 0
   },
   "boots": {
-    "type": "jpg",
+    "url": "boots.jpg",
     "clicks": 0,
     "shown": 0
   },
   "breakfast": {
-    "type": "jpg",
+    "url": "breakfast.jpg",
     "clicks": 0,
     "shown": 0
   },
   "bubblegum": {
-    "type": "jpg",
+    "url": "bubblegum.jpg",
     "clicks": 0,
     "shown": 0
   },
   "chair": {
-    "type": "jpg",
+    "url": "chair.jpg",
     "clicks": 0,
     "shown": 0
   },
   "cthulhu": {
-    "type": "jpg",
+    "url": "cthulhu.jpg",
     "clicks": 0,
     "shown": 0
   },
   "dog-duck": {
-    "type": "jpg",
+    "url": "dog-duck.jpg",
     "clicks": 0,
     "shown": 0
   },
   "dragon": {
-    "type": "jpg",
+    "url": "dragon.jpg",
     "clicks": 0,
     "shown": 0
   },
   "pen": {
-    "type": "jpg",
+    "url": "pen.jpg",
     "clicks": 0,
     "shown": 0
   },
   "pet-sweep": {
-    "type": "jpg",
+    "url": "pet-sweep.jpg",
     "clicks": 0,
     "shown": 0
   },
   "scissors": {
-    "type": "jpg",
+    "url": "scissors.jpg",
     "clicks": 0,
     "shown": 0
   },
   "shark": {
-    "type": "jpg",
+    "url": "shark.jpg",
     "clicks": 0,
     "shown": 0
   },
   "sweep": {
-    "type": "jpg",
+    "url": "sweep.jpg",
     "clicks": 0,
     "shown": 0
   },
   "tauntaun": {
-    "type": "jpg",
+    "url": "tauntaun.jpg",
     "clicks": 0,
     "shown": 0
   },
   "unicorn": {
-    "type": "jpg",
+    "url": "unicorn.jpg",
     "clicks": 0,
     "shown": 0
   },
   "usb": {
-    "type": "jpg",
+    "url": "usb.jpg",
     "clicks": 0,
     "shown": 0
   },
   "water-can": {
-    "type": "jpg",
+    "url": "water-can.jpg",
     "clicks": 0,
     "shown": 0
   },
   "wine-glass": {
-    "type": "jpg",
+    "url": "wine-glass.jpg",
     "clicks": 0,
     "shown": 0
   }
